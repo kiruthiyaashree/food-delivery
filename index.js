@@ -30,3 +30,21 @@ woth_with_qp_btn.addEventListener("click",function()
   }
 
 });
+
+var d_btn=document.getElementById("download-btn");
+var d_cls=document.getElementsByClassName("download");
+d_btn.addEventListener("click",function()
+{
+  
+  for(var i=0;i<d_cls.length;i++)
+  {
+    var co=d_cls[i];
+    if(co.style.display === "none")
+    {
+      co.style.display="flex";
+    }
+    else{
+      co.style.display="none";
+    }
+  }
+});
