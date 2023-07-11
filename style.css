@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(240, 238, 238);
+    background-color: #eef0eb;
     margin: 10px 20px;
 }
 :root{
@@ -43,7 +43,6 @@ nav{
     align-items: end;
 }
 .second-sec{
-    /* margin-left: 25%; */
     display: flex;
     justify-content: flex-end;
     text-align: center;
@@ -122,12 +121,11 @@ h2{
 }
 .work_with_qb{
     display: grid;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 55% 45%;
 }
 .content h2,p {
     text-align: justify;
     color: var(--blue);
-    /* align-items: left; */
 }
 .content a{
     border: 2px solid var(--blue);
@@ -136,6 +134,7 @@ h2{
     padding: 15px 25px;
     text-align: center;
     color: var(--blue);
+    text-decoration: none;
 }
 .content a:hover{
     background-color: var(--blue);
@@ -150,4 +149,45 @@ h2{
 }
 .container-second{
     display: none;
+}
+.download{
+    display: none;
+}
+.image{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.inner-footer a{
+    text-decoration: none;
+    color: rgb(33,37,103);
+}
+.inner-footer a:hover{
+    font-weight: bolder;
+}
+.footer{
+    margin: 0;
+    position: relative;
+    margin-top: 200px;
+    border: 1px solid inherit;
+    background-color: #c1cebd;
+    display: grid;
+    grid-template-columns: 40% 60% ;
+    border-radius: 20px;
+}
+.footer-links{
+    background-color: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo,.logo h2,.footer-links .inner-footer ,.inner-footer a 
+{
+    background-color: #c1cebd;
+}
+.inner-footer{
+    display: flex;
+    flex-direction: column;
 }
