@@ -41,11 +41,12 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: end;
+    justify-content: center;
 }
 .second-sec{
     display: flex;
-    justify-content: flex-end;
-    text-align: center;
+    justify-content: center;
+    text-align: start;
 }
 .second-sec input[type=search]
 {
@@ -54,6 +55,9 @@ nav{
     color: inherit;
     border-color: inherit;
     background-color: white;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
 }
 .second-sec ::placeholder{
     display: flex;
@@ -61,19 +65,23 @@ nav{
     padding-left: 20px;   
 }
 .second-sec .input button{
-    /* text-align: center; */
     background-color: rgb(33,37,103);
     padding: 7px 20px 7px 20px ;
     color: white;
     border-radius: 20px;
     cursor: pointer;
     display: flex;
-    align-self:flex-start;
+    justify-content: flex-start;
+}
+.intro{
+    text-align: center;
 }
 .second-sec .input
 {
+    /* background-color: rgb(92, 72, 45); */
     display: flex;
     align-items: start;
+    justify-content: center;
 }
 .input-container{
     position: relative;
